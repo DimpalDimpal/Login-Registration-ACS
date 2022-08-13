@@ -1,0 +1,35 @@
+# Advanced Cyber Security System
+
+I've created the system with more security where,
+
+1) Multiple users are allowed to login,
+2) Password Encryption is used to encrypt the password before saving in the database,
+3) Password strength is checked before registering the new user,
+4) User can login either by using username or, email.
+5) Google's reCAPTCHA v2 is used to verify if the user is human or bot. 
+
+A simple Login System:
+
+User can register an account easity just by filling the required information in the form.
+
+User can reset their password, they will received a OTP send by PHPMailer to create their new password.
+
+How to use this source code:
+
+requirement:
+
+1) install xampp
+   here is the link to install xampp
+   apachefriends.org/index.html
+
+First step:
+
+1) download this repo
+2) create a folder name as ACS -> extract to your xampp folder -> htdocs -> on folder ACS copy and paste the file
+3) go to phpmyadmin -> create database userregistration
+4) copy all the query command from userregistration.sql -> paste it under the database loginsystem sql.
+5) copy the path of index.php -> paste the link -> http://localhost:81/ACS/index.php
+6) on the less secure on your email account which use to send out the email.
+7) modify the account and password under the file -> UserDataController.php
+8) now you are ready to run your Advance Cyber Security project !
+9) Enjoy Coding!!!😀
